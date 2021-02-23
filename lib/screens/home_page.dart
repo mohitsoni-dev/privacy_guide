@@ -11,6 +11,30 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Privacy Guide'),
+        actions: [
+          PopupMenuButton<String>(
+            onSelected: handleClick,
+            itemBuilder: (BuildContext context) {
+              return {'About Privacy Guide'}.map((String choice) {
+                return PopupMenuItem<String>(
+                  value: choice,
+                  child: Row(
+                    children: [
+                      Icon(
+                        FontAwesomeIcons.infoCircle,
+                        size: 20.0,
+                      ),
+                      SizedBox(
+                        width: 10.0,
+                      ),
+                      Text(choice),
+                    ],
+                  ),
+                );
+              }).toList();
+            },
+          )
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -102,7 +126,7 @@ class MyHomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => DetailsPage(
-                      title: 'Misc Alternatives',
+                      title: 'High Level Security',
                       markdownFile: 'highlevel.md',
                     ),
                   ),
@@ -122,7 +146,7 @@ class MyHomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => DetailsPage(
-                      title: 'Misc Alternatives',
+                      title: 'Sources and Articles',
                       markdownFile: 'sources.md',
                     ),
                   ),
@@ -140,5 +164,9 @@ class MyHomePage extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  void handleClick(String value) {
+    print(value);
   }
 }
