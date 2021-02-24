@@ -1,10 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:privacy_guide/screens/about_page.dart';
 import 'package:privacy_guide/screens/details_page.dart';
 import '../components/custom_card.dart';
 import '../components/card_content.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MyHomePage extends StatelessWidget {
+  void _handleClick(String value, BuildContext context) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => AboutPage(),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,7 +23,9 @@ class MyHomePage extends StatelessWidget {
         title: Text('Privacy Guide'),
         actions: [
           PopupMenuButton<String>(
-            onSelected: handleClick,
+            onSelected: (String value) {
+              _handleClick(value, context);
+            },
             itemBuilder: (BuildContext context) {
               return {'About Privacy Guide'}.map((String choice) {
                 return PopupMenuItem<String>(
@@ -59,6 +71,7 @@ class MyHomePage extends StatelessWidget {
                     'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
               ),
               color: Color(0xFF2F394D),
+              height: 200.0,
             ),
             CustomCard(
               onTap: () {
@@ -79,6 +92,7 @@ class MyHomePage extends StatelessWidget {
                     'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
               ),
               color: Color(0xFF2F394D),
+              height: 200.0,
             ),
             CustomCard(
               onTap: () {
@@ -99,6 +113,7 @@ class MyHomePage extends StatelessWidget {
                     'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
               ),
               color: Color(0xFF2F394D),
+              height: 200.0,
             ),
             CustomCard(
               onTap: () {
@@ -119,6 +134,7 @@ class MyHomePage extends StatelessWidget {
                     'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
               ),
               color: Color(0xFF2F394D),
+              height: 200.0,
             ),
             CustomCard(
               onTap: () {
@@ -139,6 +155,7 @@ class MyHomePage extends StatelessWidget {
                     'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
               ),
               color: Color(0xFF2F394D),
+              height: 200.0,
             ),
             CustomCard(
               onTap: () {
@@ -159,14 +176,11 @@ class MyHomePage extends StatelessWidget {
                     'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
               ),
               color: Color(0xFF2F394D),
+              height: 200.0,
             ),
           ],
         ),
       ),
     );
-  }
-
-  void handleClick(String value) {
-    print(value);
   }
 }
