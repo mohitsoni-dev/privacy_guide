@@ -1,6 +1,6 @@
 ### **Text-based Messaging:**
 
-Never use garbage like Whatsapp, Skype, Snapchat, SMS or Discord. Nothing you do on those applications is private. Telegram isn't much better.
+Never use Whatsapp, Skype, Snapchat, SMS or Discord. Nothing you do on those applications is private. Telegram isn't much better.
 
 Always favor applications that have strong encryption, an open source code and run on a decentralized network.
 
@@ -38,7 +38,7 @@ Always favor applications that have strong encryption, an open source code and r
 
 ### **Chat Servers:**
 
-Never use garbage like Discord under any circumstance, and more importantly, **NEVER DOWNLOAD THE APP**. It's spyware and fiercely pro-censorship.
+Never use Discord under any circumstance, and more importantly, **NEVER DOWNLOAD THE APP**. It's spyware and fiercely pro-censorship.
 
 Consider the following alternatives for privacy, security and decentralization:
 

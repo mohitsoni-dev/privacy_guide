@@ -19,10 +19,6 @@ Website for finding alternative software:
 
 * https://alternativeto.net/
 
-Google is an evil corporation:
-
-* https://wikileaks.org/google-is-not-what-it-seems/
-
 How to delete your accounts on Big Tech Platforms:
 
 * https://justdeleteme.xyz/

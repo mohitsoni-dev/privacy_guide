@@ -15,7 +15,7 @@
 
  * https://fediblock.org/blocklist/ (List of based servers)
 
-### **Normal or Cucked Federated Servers**:
+### **Normal Federated Servers**:
 
  * https://fediverse.party/en/portal/servers
 

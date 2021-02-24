@@ -6,8 +6,6 @@ The Best Choice for the future:
 
    - Why? Because it doesn't depend on Google or Firefox for updates. With Google and Firefox growing increasingly anti-freedom, forks based on Chromium and Firefox become increasingly difficult to manage.
 
-   - Pale Moon? The developers are complete shitheads. They are also growing increasingly anti-freedom.
-
 Instead of Google Chrome/Opera, use Ungoogled Chromium:
 
  * https://chromium.woolyss.com/ (Marmaduke build)
@@ -198,35 +196,7 @@ Instead of uTorrent, use Deluge, Transmission or ruTorrent:
  * https://github.com/Novik/ruTorrent (install it from your distro's repo)
 
  * https://www.qbittorrent.org/
-
-### **DNS:**
-
- **Never** ever use your default DNS, Google DNS or Cloudflare DNS.
-
- **Always** use a secure, encrypted DNS protocol like DNS-over-TLS or DNS-over-HTTPS.
-
- **Make sure** whichever DNS provider you choose records no-logs, and doesn't censor. (read the privacy policy)
-
-If you don't set up your own Pi-hole, consider a provider with built-in adblocking. 
-
-https://wiki.lelux.fi/dns/resolvers/
-
-https://www.privacytools.io/providers/dns/
-
- Some good options:
-
- * LibreDNS: https://libredns.gr/
-
- * BlahDNS: https://blahdns.com/
-
- * Snopyta: https://snopyta.org/service/dns/index.html
-
- * NixNet: https://docs.nixnet.services/NixNet_DNS
-
- * UncensoredDNS: https://blog.uncensoreddns.org/dns-servers/
-
-   - More information on DNS: https://nixnet.services/blog/dns-and-root-certificates-what-you-need-to-know/
-
+ 
 
 ### **VPN**:
 
