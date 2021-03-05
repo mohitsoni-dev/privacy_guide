@@ -23,7 +23,7 @@ class CardContent extends StatelessWidget {
               flex: 2,
               child: Icon(
                 iconData,
-                color: Colors.purple,
+                color: Colors.indigoAccent,
                 size: 80.0,
               ),
             ),

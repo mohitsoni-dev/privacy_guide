@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
                 heading: 'Social Media Alternatives',
                 iconData: FontAwesomeIcons.facebook,
                 bodyText:
-                    'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
+                    'Alternatives to social networking sites/apps. Social media is the biggest threat to online privacy, click to know more.',
               ),
               color: Color(0xFF2F394D),
               height: 200.0,
@@ -89,7 +89,7 @@ class MyHomePage extends StatelessWidget {
                 heading: 'Messaging/Communication',
                 iconData: FontAwesomeIcons.snapchat,
                 bodyText:
-                    'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
+                    'You never know who else has access to your chats. Click to know about open source messaging alternatives.',
               ),
               color: Color(0xFF2F394D),
               height: 200.0,
@@ -110,7 +110,7 @@ class MyHomePage extends StatelessWidget {
                 heading: 'Fixing your Internet',
                 iconData: FontAwesomeIcons.chrome,
                 bodyText:
-                    'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
+                    'Your data is never private on internet, however here are some measures to reduce unwanted data sharing.',
               ),
               color: Color(0xFF2F394D),
               height: 200.0,
@@ -131,7 +131,7 @@ class MyHomePage extends StatelessWidget {
                 heading: 'Misc Alternatives',
                 iconData: FontAwesomeIcons.windows,
                 bodyText:
-                    'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
+                    'Miscellaneous alternatives and tips to make you a privacy pro.',
               ),
               color: Color(0xFF2F394D),
               height: 200.0,
@@ -152,7 +152,7 @@ class MyHomePage extends StatelessWidget {
                 heading: 'High Level Security',
                 iconData: FontAwesomeIcons.shieldAlt,
                 bodyText:
-                    'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
+                    'Take your privacy on next level and become a Privacy God. These steps are only for pros, click to read further.',
               ),
               color: Color(0xFF2F394D),
               height: 200.0,
@@ -173,7 +173,7 @@ class MyHomePage extends StatelessWidget {
                 heading: 'Sources and Articles',
                 iconData: FontAwesomeIcons.newspaper,
                 bodyText:
-                    'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate',
+                    'Sources,documentaries and other valuable articles. Share them as much as possible.',
               ),
               color: Color(0xFF2F394D),
               height: 200.0,
